@@ -1,6 +1,15 @@
+// {
+//     "$schema": "https://json.schemastore.org/tsconfig",
+//     "compilerOptions": {
+//         "types": ["express"]
+//     }
+// }
+
 {
-    "$schema": "https://json.schemastore.org/tsconfig",
     "compilerOptions": {
-        "types": ["express"]
+        "module": "Commonjs",
+        "target": "ES2020",
+         "esModuleInterop": true,
+         "outDir": "./dist"
     }
 }
